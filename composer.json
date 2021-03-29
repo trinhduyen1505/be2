@@ -1,22 +1,22 @@
 	{	
-	name: "trinhduyen1505/be2",	
-	description: "Create text",	
-	keywords: [	
+	"name": "trinhduyen1505/be2",	
+	"description": "Create text",	
+	"keywords": [	
 	],	
-	authors: [	
+	"authors": [	
 	{	
-	name: "trinhduyen1505",	
-	email: "trinhthimyduyen1505@gmail.com",	
-	homepage: "https://github.com/trinhduyen1505"	
+	"name": "trinhduyen1505",	
+	"email": "trinhthimyduyen1505@gmail.com",	
+	"homepage": "https://github.com/trinhduyen1505"	
 	}	
 	],	
-	license: "MIT",	
-	require: {	
+	"license": "MIT",	
+	"require": {	
 	},	
-	autoload: {	
-	psr-4: {	
-	Trinhduyen1505\\Be2\\: "/"	
+	"autoload": {	
+	"psr-4": {	
+	"Trinhduyen1505\\Be2\\": "/"	
 	}	
 	},	
-	minimum-stability: "dev"	
+	"minimum-stability": "dev"	
 	}	
