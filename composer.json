@@ -12,8 +12,7 @@
 	],	
 	"license": "MIT",	
 	"require": {	
-	"trinhduyen1505/package-user1": "*",
-        "trinhduyen1505/package-user2": "*"
+	"mai2200/NhomC_web2": "*"
 	},	
 	"autoload": {	
 	"psr-4": {	
