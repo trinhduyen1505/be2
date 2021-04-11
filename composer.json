@@ -12,7 +12,7 @@
 	],	
 	"license": "MIT",	
 	"require": {	
-	"mai2200/NhomC_web2": "*"
+	"tuancutedeptrai/reponaodo": "*"
 	},	
 	"autoload": {	
 	"psr-4": {	
