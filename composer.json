@@ -12,7 +12,8 @@
 	],	
 	"license": "MIT",	
 	"require": {	
-	"tuancutedeptrai/reponaodo": "*"
+	"tuancutedeptrai/reponaodo": "*",
+	"trongtinh2k/demo-composer": "*"
 	},	
 	"autoload": {	
 	"psr-4": {	
