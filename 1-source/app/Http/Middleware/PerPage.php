@@ -28,10 +28,11 @@ class PerPage
             return redirect('error');
         }
 
-        //s
-        $validPer_page = array(10,20,30,50);
-        if (!in_array($per_page,$validPer_page)){
-            $per_page = 10;
+        
+        $number = array(10,20,30,50);
+        if (!in_array($per_page,$number)){
+            //return redirect('error');
+            $per_page = $per_page;
         }
 
         $request->merge([ 'per_page' => $per_page]);

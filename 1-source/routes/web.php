@@ -5,6 +5,8 @@ use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\TrainerController;
 use App\Http\Controllers\SearchController;
 use App\Http\Middleware\PerPage;
+use App\Http\Middleware\trainer_logic;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,7 +27,7 @@ Route::get('/companies', [CompanyController::class, 'getCompanies'])
     ->middleware('per_page');
 
 Route::get('/trainers', [TrainerController::class, 'getTrainers'])
-   ->middleware('trainer_logic');
+    ->middleware('trainer_logic');
 
 Route::get('/searchCompany',[SearchController::class,'getSearch']);
 

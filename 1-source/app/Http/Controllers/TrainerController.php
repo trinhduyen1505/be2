@@ -16,16 +16,6 @@ class TrainerController extends Controller
 
         $per_page = $request->input('per_page');
 
-        // //is null
-        // if (empty($per_page)) {
-        //     $per_page = 10;
-        // }
-
-        // //is string
-        // if (is_string($per_page)) {
-        //     $per_page = 10;
-        // }
-
         $obj = new Trainer();
         $trainers = $obj->paginate($per_page);
 
