@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\TrainerController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SearchController;
 use App\Http\Middleware\PerPage;
 use App\Http\Middleware\trainer_logic;
@@ -30,6 +31,8 @@ Route::get('/trainers', [TrainerController::class, 'getTrainers'])
     ->middleware('trainer_logic');
 
 Route::get('/searchCompany',[SearchController::class,'getSearch']);
+Route::get('/categories',[CategoryController::class,'getCompanyByCategory'])
+->middleware('per_page');
 
 Route::fallback(function () {
     return view('404');
