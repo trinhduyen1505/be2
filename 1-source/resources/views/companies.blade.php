@@ -48,6 +48,7 @@
                 <th scope="col">Name</th>
                 <th scope="col">Web</th>
                 <th scope="col">Phone</th>
+                <th scope="col">Category Name</th>
             </tr>
             </thead>
             <tbody>
@@ -57,9 +58,11 @@
                     <td>{!! $company->company_name !!}</td>
                     <td>{!! $company->company_web !!}</td>
                     <td>{!! $company->company_phone !!}</td>
+                    <td>{!! $company->category_id !!}</td>
                 </tr>
                 @endforeach
 
+                
             </tbody>
         </table>
         {!! $companies->render() !!}
