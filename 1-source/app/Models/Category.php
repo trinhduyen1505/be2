@@ -5,14 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Trainer extends Model
+class Category extends Model
 {
     use HasFactory;
 
-    protected $table = 'trainers';
+    protected $table = 'categories';
 
     public function company(){
-        return $this->hasOne('App\Company');
-        $company = Trainer::find(1)->company;
+        return $this->hasMany('App\Models\Company');
     }
 }
