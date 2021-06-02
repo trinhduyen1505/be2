@@ -47,13 +47,12 @@ Top=150
 Field="user_id","user_id","@INT",,0,"","",$FFFFFFFF,""
 Field="user_name","user_name","@VARCHAR",,,"","",$FFFFFFFF,""
 Field="type_id","type_id","@INT",,,"","",$FFFFFFFF,""
-Field="course_id","course_id","@INT",,,"","",$FFFFFFFF,""
 Field="created_at","created_at","@DATE",,,"","",$FFFFFFFF,""
 Field="updated_at","updated_at","@DATE",,,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20210602235604
+ModifiedDateTime=20210603002136
 Position="MAIN",250,150,127,195
 ZOrder=1
 
@@ -75,8 +74,8 @@ Field="updated_at","updated_at","@DATE",,,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20210603000522
-Position="MAIN",850,100,157,165
+ModifiedDateTime=20210603010439
+Position="MAIN",850,100,157,188
 ZOrder=2
 
 [Entity]
@@ -355,13 +354,12 @@ Field="week_id","week_id","@INT",,0,"","",$FFFFFFFF,""
 Field="diary_id","diary_id","@INT",,,"","",$FFFFFFFF,""
 Field="status_check","status_check","BINARY",,,"","",$FFFFFFFF,""
 Field="create_at","create_at","@DATE",,,"","",$FFFFFFFF,""
-Field="end_at","end_at","@DATE",,,"","",$FFFFFFFF,""
-Field="created_at","created_at","@DATE",,,"","",$FFFFFFFF,""
 Field="updated_at","updated_at","@DATE",,,"","",$FFFFFFFF,""
+Field="end_at","end_at","@DATE",,,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20210602234800
+ModifiedDateTime=20210603011103
 Position="Main",1450,300,178,176
 ZOrder=21
 
@@ -430,7 +428,7 @@ ZOrder=24
 
 [Entity]
 PName=NEW_ENTITY6
-LName=teacher
+LName=teachers
 Comment=
 TableOption=
 Page=Main
@@ -444,7 +442,7 @@ Field="updated_at","updated_at","@DATE",,,"","",$FFFFFFFF,""
 EffectMode=None
 Color=$000000
 BkColor=$FFFFFF
-ModifiedDateTime=20210602235518
+ModifiedDateTime=20210603005737
 Position="Main",600,300
 ZOrder=25
 
