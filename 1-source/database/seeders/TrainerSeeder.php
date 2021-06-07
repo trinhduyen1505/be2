@@ -19,7 +19,9 @@ class TrainerSeeder extends Seeder
         for ($i = 0; $i < 10000000; $i++) {
             DB::table('trainers')->insert([
                 'trainer_name' => Str::random(10),
+                'is_leader' => random_int(0,1),
                 'company_id' => random_int(1, 999999),
+                'user_id' => random_int(1, 999999),
                 'trainer_email' => Str::random(5) . '@gmail.com',
                 'trainer_phone' => random_int(900000000, 999999999)
             ]);
